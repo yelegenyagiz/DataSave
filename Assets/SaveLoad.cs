@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class SaveLoad
 {
-    const string fileName = "Database.bin";
+    const string fileName = @"C:\Users\yagiz\Desktop\Database.bin";
     static char sep = ':';
     /// <summary>
     /// İstenilen türdeki veriyi bir key ile dosyaya yazdırır.Eğer varolan bir key ile kayıt yapılmaya çalışılırsa varolan key'e ait olan 
