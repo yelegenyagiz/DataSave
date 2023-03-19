@@ -4,6 +4,8 @@ using UnityEngine;
 
 public static class SaveLoad
 {
+    //Bu dosya yolunu kendi istediğiniz dizin ile değiştirin.Varsayılan asset klasörüde oluşması için şu kodu kullanın:
+    //const string fileName = "Database.bin";
     const string fileName = @"C:\Users\yagiz\Desktop\Database.bin";
     static char sep = ':';
     /// <summary>
